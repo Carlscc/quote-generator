@@ -13,7 +13,6 @@ var quotes = [
 
 function newQuote() {
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
-	document.getElementById('newQuotes').innerHTML = quotes[randomNumber];
-
+	document.getElementById('newQuote').innerHTML = quotes[randomNumber];
 	document.getElementById("twitter-share-button").href = "http://twitter.com/intent/tweet/?text=" + encodeURIComponent(quotes[randomNumber]);
 }
