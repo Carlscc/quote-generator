@@ -43,3 +43,7 @@ button {
   border-width: 2px;
   cursor: pointer;
 }
+
+.fa-twitter {
+  margin-left: 10px;
+}
