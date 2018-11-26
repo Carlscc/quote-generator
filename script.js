@@ -1,4 +1,4 @@
-var quotes = [
+Let quotes = [
 "An ugly baby is better than no baby at all. If you wait and wait and wait for your product to be perfect before you release it out into the world, you will often never get there. I am a big supporter of the minimum viable product and taking something that is the simplest explanation of your idea and putting it into the marketplace so you can start to get feedback.- Kathryn Minshew, Co-Founder and CEO of The Muse",
 "When I look back to my younger self, I would tell myself to be confident first and foremost, to believe in myself, before anyone else because if I believe in myself, then others will too. And ultimately, this confidence and belief in myself would enable me to enable other women around the world. It’s about believing in your goals and what you are passionate about, and from that, others will become passionate about it too.- Tiffany Pham, Founder of Mogul",
 "Feeling a little uncomfortable with your skills is a sign of learning, and continuous learning is what the tech industry thrives on! It’s important to seek out environments where you are supported, but where you have the chance to be uncomfortable and learn new things.- Vanessa Hurst, Co-Founder of Girl Develop It",
@@ -8,11 +8,11 @@ var quotes = [
 "Career choice and progression doesn’t have to fit into the standard societal mold. Do what you love and want to do. Find what you’re good at, what you can sell or provide that is unique to you and go for it. - Dana Donofree, Owner of AnaOno",
 "If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on. - Sheryl Sandberg, COO Facebook",
 "I don’t like the word ‘balance.’ To me, that somehow conjures up conflict between work and family… as long as we think of these things as conflicting, we will never have happiness. True happiness comes from integration… of work, family, self, community. – Padmasree Warrior, former CEO of Motorola & Cisco Systems, now CEO of NextEV US",
-"Someone once told me growth and comfort do not coexist. And I think it’s a really good thing to remember. – Ginni Rometty, CEO IBM",
+"Someone once told me growth and comfort do not coexist. And I think it’s a really good thing to remember. Ginni Rometty, CEO IBM",
 ];
 
 function newQuote() {
-	var randomNumber = Math.floor(Math.random() * (quotes.length));
+	Let randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('newQuotes').innerHTML = quotes[randomNumber];
-	document.getElementById("twitterLink").href = "http://twitter.com/intent/tweet/?text=" + encodeURIComponent(quotes[randomNumber])
+	document.getElementById("twitterLink").href = "http://twitter.com/intent/tweet/?text=" + encodeURIComponent(quotes[randomNumber]);
 }
