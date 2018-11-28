@@ -14,5 +14,5 @@ Let quotes = [
 function newQuote() {
 	Let randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('newQuotes').innerHTML = quotes[randomNumber];
-	document.getElementById("twitterLink").href = "http://twitter.com/intent/tweet/?text=" + encodeURIComponent(quotes[randomNumber]);
+	
 }
