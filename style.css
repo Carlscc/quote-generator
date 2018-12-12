@@ -35,10 +35,9 @@ button {
 
 @media (max-width:767px){
     #button {
-      text-align: center;
-      margin-left: 30%
-      margin-right: 30;
-
+      margin: 0 auto;
+      display: block;
+      
 }
 
 }
