@@ -36,7 +36,8 @@ button {
 @media (max-width:767px){
     #button {
       text-align: center;
-      
+      padding-left: 50px;
+
 }
 
 }
