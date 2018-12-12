@@ -29,7 +29,17 @@ html, body {
 }
 button {
   padding-top: 100px;
-  float: center;
+  text-align: center;
+
+}
+
+@media (max-width:767px){
+    #button {
+      float: center;
+      position: relative;
+      transform: translate(-50%);
+}
+
 }
 
 .btn-primary {
