@@ -36,8 +36,6 @@ button {
 @media (max-width:767px){
     #button {
       float: center;
-      position: relative;
-      transform: translate(-50%);
 }
 
 }
