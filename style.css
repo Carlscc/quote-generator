@@ -37,7 +37,6 @@ button {
     #button {
       margin: 0 auto;
       display: block;
-      left: auto;
       float: center;
 }
 
