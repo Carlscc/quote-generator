@@ -22,6 +22,7 @@ html, body {
   font-size: 40px;
   padding-top: 40px;
   border-bottom: 1px; white;
+  float: center;
 }
 
 
@@ -42,8 +43,4 @@ button {
   border-color: #fff;
   border-width: 2px;
   cursor: pointer;
-}
-
-.fa-twitter {
-  margin-left: 10px;
 }
