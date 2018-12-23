@@ -10,7 +10,7 @@ let quotes = [
 "I don’t like the word ‘balance.’ To me, that somehow conjures up conflict between work and family… as long as we think of these things as conflicting, we will never have happiness. True happiness comes from integration… of work, family, self, community. – Padmasree Warrior, former CEO of Motorola & Cisco Systems, now CEO of NextEV US",
 "Someone once told me growth and comfort do not coexist. And I think it’s a really good thing to remember. Ginni Rometty, CEO IBM",
 "Now we’re in an age where technology is mandatory, and we wanted young girls to have this understanding and know how to build an app. – Peta Clarke, Technical Lead at Black Girls Code",
-“I would like to be remembered as someone who was not afraid to do what she wanted to do, and as someone who took risks along the way in order to achieve her goals. - Sally Ride — Physicist, NASA Communicator and Astronaut",
+“I would like to be remembered as someone who was not afraid to do what she wanted to do, and as someone who took risks along the way in order to achieve her goals. - Sally Ride, Physicist, NASA Communicator and Astronaut",
 ];
 
 function newQuote() {
