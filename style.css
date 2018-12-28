@@ -53,3 +53,7 @@ button {
   border-width: 2px;
   cursor: pointer;
 }
+
+#twitterLink {
+  padding-left: 10px;
+}
